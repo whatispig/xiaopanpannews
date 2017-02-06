@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="#e9e9e9">
+		<title>login</title>
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" type="text/css"  charset="utf-8">
+		<link rel="stylesheet" href="css/login.css" type="text/css"  charset="utf-8">
+		<script type="text/javascript" src="js/jquery.min.js" charset="utf-8"></script>
+		<script type="text/javascript" src="js/jquery.mobile-1.4.5.min.js" charset="utf-8"></script>
+	</head>
+	<body >
+		<div id="page" data-role="page" >
+			<div id="header" data-role="header" data-position="fixed">
+				<h4>小攀攀新闻</h4>
+			</div>
+			<div id="content" class="content">
+				<div class="logoBox">
+					<img src="images/logo.jpg">
+				</div>
+				<div class="loginBox">
+					<form action="" method="post">
+						<label class="ui-hidden-accessible" for="username">用户名</label><input type="text" name="username" value="" id="username" placeholder="请输入用户名">
+						<label class="ui-hidden-accessible" for="password">密码</label><input type="password" name="password" value="" id="password" placeholder="请输入密码">
+						<input type="submit" value="登录">
+					</form>
+				</div>
+				<div class="rigesterBox">
+					<a href="register.html" class="ui-btn ui-shadow ui-corner-all" data-transition="slideup">还没有，那就去注册吧。</a>
+				</div>
+			</div>
+			<div id="footer" data-role="footer" data-position="fixed">
+				<div class="ui-grid-c center">
+					<div class="ui-block-a"><a class="ui-shadow ui-btn ui-corner-all ui-icon-arrow-l ui-btn-icon-notext ui-btn-inline" data-rel="back"></a></div>
+					<div class="ui-block-b"><a href="main.html" class="ui-shadow ui-btn ui-corner-all ui-icon-home ui-btn-icon-notext ui-btn-inline"></a></div>
+					<div class="ui-block-c"><a href="gear.html" class="ui-shadow ui-btn ui-corner-all ui-icon-user ui-btn-icon-notext ui-btn-inline" data-transition="flip"></a></div>
+					<div class="ui-block-d"><a class="ui-shadow ui-btn ui-corner-all ui-icon-arrow-r ui-btn-icon-notext ui-btn-inline"></a></div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/index.js" charset="utf-8"></script>
+	</body>
+</html>
+
