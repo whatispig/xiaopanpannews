@@ -1,0 +1,10 @@
+.center{
+	text-align:center;
+}
+#content ul#listview li a img{
+	height:100% !important;
+	top:0.7em;
+}
+#content ul#listview li a span.count{
+	margin-left:0.5em;
+}

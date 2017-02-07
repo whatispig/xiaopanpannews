@@ -1,0 +1,14 @@
+.center{
+	text-align:center;
+}
+#content .logoBox{
+	padding:1em 0;
+}
+#content .logoBox img{
+	display:block;
+	width:6em;
+	height:6em;
+	margin:0 auto;
+	border-radius:1em;
+	overflow:hidden;
+}

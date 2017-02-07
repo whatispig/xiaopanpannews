@@ -1,0 +1,29 @@
+.center{
+	text-align:center;
+}
+#content .loginButton{
+	text-align:center !important;
+}
+#content .loginButton a{
+	display:block;
+	width:6.25em;
+	height:1.5em !important;
+	margin:0 auto;
+	line-height:1.5em !important;
+	border-radius:1.5em;
+	-webkit-border-radius:1.5em;
+	-moz-border-radius:1.5em;
+	-ms-border-radius:1.5em;
+	-o-border-radius:1.5em;
+	background-color:#abcdef;
+	color:#fff;
+	font-weight:100;
+	text-shadow:none;
+	border:none;
+}
+#content .infoBox{
+	margin-top:1.33em;
+}
+#content .infoBox ul{
+	margin:1em;
+}
